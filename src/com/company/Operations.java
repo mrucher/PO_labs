@@ -29,4 +29,10 @@ public class Operations {
         }
         return a / b;
     }
+    public static Double pow(Double a, Double b) {
+        if(a == null || b == null){
+            return null;
+        }
+        return Math.pow(a,b);
+    }
 }
