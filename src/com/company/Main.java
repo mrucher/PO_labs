@@ -11,7 +11,10 @@ public class Main {
             System.out.println(twoCalc());
         } else if (calcNum == 2) {
             System.out.println(infCalc());
-        } else {
+        } else if (calcNum == 3) {
+            System.out.println("it was a joke)))");
+        }
+        else {
             System.out.println("Input error. Closed");
         }
 
