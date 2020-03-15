@@ -37,6 +37,7 @@ public class Reader {
         System.out.println("3. *");
         System.out.println("4. /");
         System.out.println("5. ^");
+        System.out.println("6. %");
         System.out.println("0. exit");
 
         int res = in.nextInt();
@@ -52,6 +53,8 @@ public class Reader {
                 return '/';
             case (5):
                 return '^';
+            case (6):
+                return '%';
             case (0):
                 return '#';
             default:
