@@ -35,4 +35,15 @@ public class Operations {
         }
         return Math.pow(a,b);
     }
+
+    public static Double mod(Double a, Double b) {
+        if(a == null || b == null){
+            return null;
+        }
+        if(b == 0){
+            System.out.println("Div by zero error");
+            return null;
+        }
+        return a % b;
+    }
 }

@@ -38,6 +38,8 @@ public class Main {
                 return Operations.div(first, second);
             case ('^'):
                 return Operations.pow(first, second);
+            case ('%'):
+                return Operations.mod(first, second);
             default:
                 return -1;
         }
@@ -74,6 +76,9 @@ public class Main {
                     break;
                 case ('^'):
                     prev = Operations.pow(prev, next);
+                    break;
+                case ('%'):
+                    prev = Operations.mod(prev, next);
                     break;
                 default:
                     return -1;
