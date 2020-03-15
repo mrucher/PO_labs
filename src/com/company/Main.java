@@ -36,6 +36,8 @@ public class Main {
                 return Operations.mul(first, second);
             case ('/'):
                 return Operations.div(first, second);
+            case ('^'):
+                return Operations.pow(first, second);
             default:
                 return -1;
         }
@@ -69,6 +71,9 @@ public class Main {
                     break;
                 case ('/'):
                     prev = Operations.div(prev, next);
+                    break;
+                case ('^'):
+                    prev = Operations.pow(prev, next);
                     break;
                 default:
                     return -1;
