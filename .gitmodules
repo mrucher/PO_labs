@@ -1,0 +1,6 @@
+[submodule "Lib1"]
+	path = Lib1
+	url = https://github.com/mrucher/Lib1
+[submodule "Lib2"]
+	path = Lib2
+	url = https://github.com/mrucher/Lib2
