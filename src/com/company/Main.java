@@ -5,7 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println("hello))))");
         int calcNum = Reader.chooseCacl();
         if (calcNum == 1) {
             System.out.println(twoCalc());
